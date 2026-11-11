@@ -1,0 +1,21 @@
+# Private mail login
+Actions/mail_config.php
+
+# Member payment proofs (keep the folder, not the files)
+uploads/payments/*
+!uploads/payments/.gitkeep
+
+# Editor and system files
+.vscode/
+*.log
+.env
+Thumbs.db
+
+# Rebuilt with composer install
+vendor/
+
+# Dev and debug files
+phpinfo.php
+test_write.php
+test_notifications.php
+Assets/Graphics/qrcode_fordebug.png
